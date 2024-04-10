@@ -10,14 +10,7 @@ const Reviews = lazy(() => import('./Reviews/Index.jsx'));
 
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        flexDirection: 'column',
-        color: '#010101',
-      }}
-    >
+    <div>
       <Routes>
         <Route path="/" element={<SharedLayout />}>
           <Route index element={<Home />} />

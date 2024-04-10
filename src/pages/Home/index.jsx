@@ -11,7 +11,6 @@ const Home = () => {
   useEffect(() => {
     const trendMovies = async () => {
       const movies = await fetchTrendMovies(url);
-      console.log(movies);
       setTrendingMovies(movies.results);
     };
     trendMovies();
