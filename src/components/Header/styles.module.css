@@ -1,0 +1,18 @@
+.ul{
+        display: flex;
+            gap: 60px;
+            list-style: none;
+            box-shadow: 0px 5px 5px 0px rgba(255, 99, 71, 1);
+            width: 100%;
+            padding: 15px 15px;
+            font-weight: 800;
+        }
+
+
+.nav {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+}
